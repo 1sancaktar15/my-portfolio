@@ -77,8 +77,7 @@ function App() {
               <h2 className="text-2xl font-bold text-darkgreen">About Me</h2>
             </div>
             <p className="text-gray-700 text-base leading-relaxed">
-              Highly motivated and detail-oriented Computer Engineering graduate with hands-on experience in <span className="text-darkgreen font-medium">full-stack development</span>, <span className="text-darkgreen font-medium">data science</span>, and <span className="text-darkgreen font-medium">hardware-software integration</span>. Adept at building scalable <span className="text-darkgreen font-medium">API-driven applications</span>, developing <span className="text-darkgreen font-medium">end-to-end data pipelines</span>, and leveraging modern technologies such as <span className="text-darkgreen font-medium">FastAPI</span>, <span className="text-darkgreen font-medium">Kafka</span>, <span className="text-darkgreen font-medium">PySpark</span>, and <span className="text-darkgreen font-medium">Docker</span>. Eager to contribute technical expertise and a passion for innovation to a dynamic team.
-            </p>
+            Highly motivated and detail-oriented Computer Engineering graduate with hands-on experience in <span className="text-darkgreen font-medium">full-stack development</span>, <span className="text-darkgreen font-medium">data science</span>, and <span className="text-darkgreen font-medium">hardware-software integration</span>. Has developed scalable <span className="text-darkgreen font-medium">API-driven applications</span>, <span className="text-darkgreen font-medium">end-to-end data pipelines</span>, and worked with modern technologies such as <span className="text-darkgreen font-medium">FastAPI</span>, <span className="text-darkgreen font-medium">Kafka</span>, <span className="text-darkgreen font-medium">PySpark</span>, and <span className="text-darkgreen font-medium">Docker</span>. Eager to contribute technical expertise and a passion for innovation to a dynamic team.            </p>
           </section>
 
          {/* Experience */}
@@ -204,6 +203,24 @@ function App() {
                 </p>
                 <div className="mt-4">
                   <a href="https://github.com/1sancaktar15/bigdata-project" target="_blank" rel="noopener noreferrer" className="w-full block text-center bg-darkgreen text-white py-2 rounded-lg hover:bg-forest transition">
+                    GitHub Repository
+                  </a>
+                </div>
+              </div>
+              
+              {/* Hospital Management System */}
+              <div className="bg-gradient-to-br from-[#f0fdf4] to-[#dcfce7] rounded-xl p-5 shadow-md border border-green-100 md:col-span-2">
+                <h3 className="font-bold text-lg text-darkgreen">Hospital Management System</h3>
+                <p className="text-gray-700 text-sm mt-2">
+                  Modern hospital management interface with React, React Router, and TailwindCSS. Features patient/doctor management, appointment scheduling, and dark mode support.
+                </p>
+                <div className="mt-4">
+                  <a 
+                    href="https://github.com/1sancaktar15/hospital_management" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full block text-center bg-darkgreen text-white py-2 rounded-lg hover:bg-forest transition"
+                  >
                     GitHub Repository
                   </a>
                 </div>
@@ -533,7 +550,6 @@ function App() {
         
         <div className="max-w-6xl mx-auto px-4 mt-8 pt-6 border-t border-white/20 text-center text-sm text-white/80">
           <p>© {new Date().getFullYear()} Elif Özün. All rights reserved.</p>
-          <p className="mt-1">Designed and built with ❤️</p>
         </div>
       </footer>
     </div>
